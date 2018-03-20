@@ -1,0 +1,6 @@
+
+<div *ngFor = "let bag of bags">
+  <app-bag-item [bag] = "bag" (click) = "openBagDetails(bag)"></app-bag-item>
+</div>
+
+<app-bag-details *ngIf = "isOpenDetails" [currentBag] = "currentBag"></app-bag-details>

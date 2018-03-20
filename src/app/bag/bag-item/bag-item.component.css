@@ -1,0 +1,13 @@
+.bag-item {
+    margin: 20px;
+    border: 1px solid gray;
+    background: gray;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.bag-item:hover{
+    background: black;
+    transition: 2s;
+}
